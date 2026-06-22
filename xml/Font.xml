@@ -66,6 +66,11 @@
 			<style>lighten</style>
 		</font>
 		<font>
+			<name>font37_italic</name>
+			<filename>VictorMono-Italic.ttf</filename>
+			<size>37</size>
+		</font>
+		<font>
 			<name>font45</name>
 			<filename>NotoSans-Regular.ttf</filename>
 			<size>45</size>
