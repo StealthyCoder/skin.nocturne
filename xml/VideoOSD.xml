@@ -62,7 +62,7 @@
 						<height>76</height>
 						<radiowidth>74</radiowidth>
 						<radioheight>74</radioheight>
-						<font></font>
+						<font>font13_italic</font>
 						<texturenofocus />
 						<radioposx>1</radioposx>
 						<radioposy>0</radioposy>
@@ -101,7 +101,7 @@
 						<height>76</height>
 						<radiowidth>74</radiowidth>
 						<radioheight>74</radioheight>
-						<font></font>
+						<font>font13_italic</font>
 						<texturenofocus />
 						<radioposx>1</radioposx>
 						<radioposy>0</radioposy>

@@ -76,7 +76,7 @@
 					<top>-45</top>
 					<width>920</width>
 					<height>30</height>
-					<font>font30_title</font>
+					<font>font30_title_italic</font>
 					<label>$INFO[Player.Filename]</label>
 					<align>center</align>
 					<aligny>center</aligny>
@@ -235,7 +235,7 @@
 					<height>26</height>
 					<label>$LOCALIZE[24018]</label>
 					<align>center</align>
-					<font>font30_title</font>
+					<font>font30_title_italic</font>
 					<aligny>top</aligny>
 					<textcolor>button_focus</textcolor>
 					<shadowcolor>black</shadowcolor>

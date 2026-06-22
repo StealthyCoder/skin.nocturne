@@ -89,7 +89,7 @@
 						<width>400</width>
 						<height>50</height>
 						<aligny>center</aligny>
-						<font>font25_title</font>
+						<font>font25_title_italic</font>
 						<label>$LOCALIZE[19158]</label>
 					</control>
 				</control>
@@ -129,7 +129,7 @@
 				<aligny>bottom</aligny>
 				<animation delay="0" effect="slide" time="120" start="0,0" end="0,-20" tween="sine" easing="inout" condition="!String.IsEmpty(Control.GetLabel(40000))">Conditional</animation>
 				<label>$VAR[SeekTimeLabelVar]</label>
-				<font>font45</font>
+				<font>font45_italic</font>
 				<shadowcolor>black</shadowcolor>
 				<visible>!Player.ChannelPreviewActive</visible>
 				<animation effect="fade" start="0" end="100" time="200" delay="1000">Visible</animation>

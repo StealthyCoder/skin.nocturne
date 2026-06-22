@@ -118,6 +118,11 @@
 			<style>bold</style>
 		</font>
 		<font>
+			<name>font30_title_italic</name>
+			<filename>VictorMono-Italic.ttf</filename>
+			<size>30</size>
+		</font>
+		<font>
 			<name>font32_title</name>
 			<filename>NotoSans-Regular.ttf</filename>
 			<size>32</size>
@@ -152,6 +157,21 @@
 			<filename>VictorMono-Regular.ttf</filename>
 			<size>60</size>
 			<style>bold</style>
+		</font>
+		<font>
+			<name>font13_italic</name>
+			<filename>VictorMono-Italic.ttf</filename>
+			<size>30</size>
+		</font>
+		<font>
+			<name>font45_italic</name>
+			<filename>VictorMono-Italic.ttf</filename>
+			<size>45</size>
+		</font>
+		<font>
+			<name>font25_title_italic</name>
+			<filename>VictorMono-Italic.ttf</filename>
+			<size>25</size>
 		</font>
 		<font>
 			<name>WeatherTemp</name>
