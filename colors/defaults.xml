@@ -1,20 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <colors>
-	<color name="primary_background">FF0E597E</color>
-	<color name="secondary_background">330BAA8E</color>
-	<color name="dialog_tint">FF1A2123</color>
-	<color name="background">FF000000</color>
-	<color name="bg_image">FF909090</color>
-	<color name="bg_overlay">30FFFFFF</color>
-	<color name="black">FF000000</color>
-	<color name="white">FFF0F0F0</color>
-	<color name="grey">FFA0A0A0</color>
-	<color name="blue">FF7ACAFE</color>
-	<color name="red">FFCE4421</color>
-	<color name="button_focus">FF12A0C7</color>
-	<color name="text_shadow">22000000</color>
-	<color name="border_alpha">60FFFFFF</color>
-	<color name="disabled">40FFFFFF</color>
-	<color name="selected">FF11E7B1</color>
-	<color name="invalid">FFFF0000</color>
+	<!-- Rosé Pine Moon palette — ARGB (aarrggbb) format -->
+	<color name="primary_background">FF2A273F</color>
+	<color name="secondary_background">33C4A7E7</color>
+	<color name="dialog_tint">FF232136</color>
+	<color name="background">FF191724</color>
+	<color name="bg_image">FF6E6A86</color>
+	<color name="bg_overlay">59232136</color>
+	<color name="black">FF191724</color>
+	<color name="white">FFE0DEF4</color>
+	<color name="grey">FF908CAA</color>
+	<color name="blue">FF9CCFD8</color>
+	<color name="red">FFEB6F92</color>
+	<color name="button_focus">FFC4A7E7</color>
+	<color name="button_alt_focus">80C4A7E7</color>
+	<color name="text_shadow">44000000</color>
+	<color name="border_alpha">40908CAA</color>
+	<color name="disabled">60908CAA</color>
+	<color name="selected">FFC4A7E7</color>
+	<color name="invalid">FFEB6F92</color>
+	<color name="rss_text">FF908CAA</color>
+	<color name="clock_text">FFF6C177</color>
 </colors>

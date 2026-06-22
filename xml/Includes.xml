@@ -1003,6 +1003,7 @@
 					</control>
 					<control type="label">
 						<font>font_clock</font>
+						<textcolor>clock_text</textcolor>
 						<shadowcolor>text_shadow</shadowcolor>
 						<height>200</height>
 						<width>auto</width>

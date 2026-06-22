@@ -66,6 +66,7 @@
 				<control type="label">
 					<font>font_clock</font>
 					<shadowcolor>text_shadow</shadowcolor>
+					<textcolor>clock_text</textcolor>
 					<top>0</top>
 					<right>20</right>
 					<height>200</height>
