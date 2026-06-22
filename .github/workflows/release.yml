@@ -1,0 +1,49 @@
+name: Release
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Read version from addon.xml
+        id: version
+        run: |
+          VERSION=$(grep -m1 'addon id=' addon.xml | sed 's/.*version="\([^"]*\)".*/\1/')
+          echo "version=$VERSION" >> $GITHUB_OUTPUT
+
+      - name: Build zip
+        run: |
+          cd ..
+          zip -r skin.nocturne-${{ steps.version.outputs.version }}.zip skin.nocturne \
+            --exclude "skin.nocturne/.git/*" \
+            --exclude "skin.nocturne/.gitignore" \
+            --exclude "skin.nocturne/.github/*" \
+            --exclude "skin.nocturne/media/Textures.xbt" \
+            --exclude "skin.nocturne/media/curial.xbt" \
+            --exclude "skin.nocturne/media/flat.xbt"
+          mv skin.nocturne-${{ steps.version.outputs.version }}.zip skin.nocturne/
+
+      - name: Create release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: v${{ steps.version.outputs.version }}
+          name: Rosé Pine Moon v${{ steps.version.outputs.version }}
+          body: |
+            Rosé Pine Moon Kodi skin — dark, calm, VictorMono Italic typography with Iris lavender highlights.
+
+            ## Install
+            1. Download `skin.nocturne-${{ steps.version.outputs.version }}.zip`
+            2. In Kodi: Settings → Add-ons → Install from zip file
+            3. Settings → Interface → Skin → Rosé Pine Moon
+          files: skin.nocturne-${{ steps.version.outputs.version }}.zip
+          make_latest: true
