@@ -129,7 +129,7 @@
 						<height min="0" max="300">auto</height>
 						<label>$PARAM[text_label]</label>
 						<align>center</align>
-						<font>font14</font>
+						<font>font14_italic</font>
 					</control>
 					<control type="grouplist" id="$PARAM[button_id]567">
 						<width>100%</width>

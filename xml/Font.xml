@@ -27,6 +27,11 @@
 			<style>lighten</style>
 		</font>
 		<font>
+			<name>font14_italic</name>
+			<filename>VictorMono-Italic.ttf</filename>
+			<size>33</size>
+		</font>
+		<font>
 			<name>font23_narrow</name>
 			<filename>NotoSans-Regular.ttf</filename>
 			<size>23</size>
