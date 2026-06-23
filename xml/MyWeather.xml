@@ -103,7 +103,7 @@
 					<texturenofocus />
 					<onup>20000</onup>
 					<ondown>15100</ondown>
-					<font>font12</font>
+					<font>font27</font>
 					<onclick>Weather.LocationNext</onclick>
 					<label></label>
 				</control>
@@ -122,7 +122,7 @@
 					<top>164</top>
 					<align>right</align>
 					<label>[I]$LOCALIZE[402]: $INFO[Window(weather).Property(Current.FeelsLike)]$INFO[System.TemperatureUnits][/I][CR]$INFO[Weather.Conditions]</label>
-					<font>font14</font>
+					<font>Mono26</font>
 					<width>630</width>
 				</control>
 				<control type="grouplist">

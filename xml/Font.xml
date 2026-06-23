@@ -176,9 +176,8 @@
 		<font>
 			<name>WeatherTemp</name>
 			<aspect>0.85</aspect>
-			<filename>NotoSans-Regular.ttf</filename>
+			<filename>VictorMono-Thin.ttf</filename>
 			<size>120</size>
-			<style>bold</style>
 		</font>
 		<font>
 			<name>Mono26</name>
