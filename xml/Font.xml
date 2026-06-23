@@ -76,6 +76,11 @@
 			<size>37</size>
 		</font>
 		<font>
+			<name>font37_victor</name>
+			<filename>VictorMono-Regular.ttf</filename>
+			<size>37</size>
+		</font>
+		<font>
 			<name>font45</name>
 			<filename>NotoSans-Regular.ttf</filename>
 			<size>45</size>
